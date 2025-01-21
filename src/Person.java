@@ -1,5 +1,15 @@
 import Vehicles.*;
-
+/**
+ * Lab 0: VSCode, Java, and GitHub
+ * 
+ * The purpose of this lab is to introduce you to VSCode, 
+ * Github, and the Java language in an OOP manner. The 
+ * Person class contains information about a user's first 
+ * and last name. As part of the assignment you will add 
+ * a field which can contain the user's github username.
+ * 
+ * @author William Goble
+ */
 public class Person {
     private String firstName;
     private String lastName;

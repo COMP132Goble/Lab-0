@@ -1,5 +1,11 @@
 package Vehicles;
-
+/**
+ * A simple class to demonstrate how we can create packages in Java. 
+ * Here we will create a Car object that we can use in various other 
+ * projects.
+ * 
+ * @author William Goble
+ */
 public class Car {
     private String make;
     private String modle;
