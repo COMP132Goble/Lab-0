@@ -31,7 +31,7 @@ public class Car {
         System.out.print(color + " " + year + " " + make + " " + modle);
     }
 
-    // Accessor methods
+    // Accessor methods; also called "getters"
     public String getMake() {
         return make;
     }
@@ -42,5 +42,22 @@ public class Car {
 
     public int getYear() {
         return year;
+    }
+
+    // Mutator methods; also called "setters"
+    public void setMake(String newMake) {
+        make = newMake;
+    }
+
+    public void setModel(String newModel) {
+        modle = newModel;
+    }
+
+    public void setYear(int newYear) {
+        year = newYear;
+    }
+
+    public void setColor(String newColor) {
+        color = newColor;
     }
 }
