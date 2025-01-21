@@ -9,7 +9,9 @@ public class Person {
         lastName = "Doe";
     }
 
-    
+    public String toString() {
+        return firstName + " " + lastName;
+    }
 
     public static void main(String[] args) throws Exception {
         Car truck, suv;
